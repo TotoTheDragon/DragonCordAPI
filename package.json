@@ -1,6 +1,6 @@
 {
   "name": "@developerdragon/dragoncordapi",
-  "version": "1.0.11",
+  "version": "1.0.16",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm version patch && shx rm -r lib/ && tsc"
+    "prepare": "npm version patch && shx rm -rf lib/ && tsc"
   },
   "bugs": {
     "url": "https://github.com/TotoTheDragon/DragonCordAPI/issues"
